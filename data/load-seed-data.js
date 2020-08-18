@@ -27,7 +27,7 @@ async function run() {
     await Promise.all(
       animals.map(animal => {
         return client.query(`
-                    INSERT INTO animals (name, cool_factor, owner_id)
+                    INSERT INTO chores (chore, completed, owner_id)
                     VALUES ($1, $2, $3);
                 `,
         [animal.name, animal.cool_factor, user.id]);
