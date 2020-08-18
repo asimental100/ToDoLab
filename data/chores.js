@@ -5,7 +5,7 @@ module.exports = [
   },
   {
     chore: 'vaccum',
-    complete: false,
+    completed: false,
   },
   {
     chore: 'laundry',
