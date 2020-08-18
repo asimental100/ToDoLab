@@ -17,7 +17,7 @@ async function run() {
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL
                 );           
-                CREATE TABLE chores (
+                CREATE TABLE todos (
                     id SERIAL PRIMARY KEY NOT NULL,
                     chore VARCHAR(512) NOT NULL,
                     completed BOOLEAN NOT NULL,
